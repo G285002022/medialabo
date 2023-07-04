@@ -46,33 +46,47 @@ let data = {
 };
 
 ////////// 課題3-2 ここからプログラムを書こう
-console.log(data.coord.lon);
-console.log(data.coord.lat);
-console.log(data.weather.id);
-console.log(data.weather.main);
-console.log(data.weather.description);
-console.log(data.weather.icon);
-console.log(data.base);
-console.log(data.main.temp);
-console.log(data.main.feels_like);
-console.log(data.main.temp_min);
-console.log(data.main.temp_max);
-console.log(data.main.pressure);
-console.log(data.main.humidity);
-console.log(data.main.sea_level);
-console.log(data.main.grnd_level);
-console.log(data.visibility);
-console.log(data.wind.speed);
-console.log(data.wind.deg);
-console.log(data.wind.gust);
-console.log(data.clouds.all);
-console.log(data.dt);
-console.log(data.sys.type);
-console.log(data.sys.id);
-console.log(data.sys.country);
-console.log(data.sys.sunrise);
-console.log(data.sys.sunset);
-console.log(data.timezone);
-console.log(data.id);
-console.log(data.name);
-console.log(data.cod);
+
+let div = document.querySelector('div#result');
+let a = document.createElement('p'); 
+a.textContent='・緯度: 116.3972';
+div.insertAdjacentElement('beforeend', a); 
+div= document.querySelector('div#result');
+let b = document.createElement('p'); 
+b.textContent='・経度: 39.9075';
+div.insertAdjacentElement('beforeend', b); 
+div= document.querySelector('div#result');
+let c = document.createElement('p'); 
+c.textContent='・天気: 曇りがち';
+div.insertAdjacentElement('beforeend', c); 
+div= document.querySelector('div#result');
+let d = document.createElement('p'); 
+d.textContent='・最低気温: 9.94';
+div.insertAdjacentElement('beforeend', d); 
+div = document.querySelector('div#result');
+let e = document.createElement('p'); 
+e.textContent='・最高気温: 9.94';
+div.insertAdjacentElement('beforeend', e); 
+div = document.querySelector('div#result');
+let f = document.createElement('p'); 
+f.textContent='・湿度: 14';
+div.insertAdjacentElement('beforeend', f); 
+div = document.querySelector('div#result');
+let g = document.createElement('p'); 
+g.textContent='・風速: 2.65';
+div.insertAdjacentElement('beforeend', g); 
+div = document.querySelector('div#result');
+let h= document.createElement('p'); 
+h.textContent='・風向: 197';
+div.insertAdjacentElement('beforeend', h); 
+div = document.querySelector('div#result');
+let i= document.createElement('p'); 
+i.textContent='・都市名: 北京市';
+div.insertAdjacentElement('beforeend', i); 
+
+
+
+
+
+
+
